@@ -94,6 +94,9 @@ function reset() {
   // 랜덤숫자 재생성
   randomNumCreate();
 
+  // go 버튼 초기화
+  playButton.disabled = false;
+
   // 횟수는 초기화
   chances = 3;
 
